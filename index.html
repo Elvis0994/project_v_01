@@ -9,10 +9,12 @@
 </head>
 <body>
     <header>
-    <p>hello world</p>
-    <h5>Main page</h5>
-    <h5>Projects</h5>
-    <h5>Mobile version</h5>
+        <div>
+        <p>hello world</p>
+        <h5>Main page</h5>
+        <h5>Projects</h5>
+        <h5>Mobile version</h5>
+        </div>
     </header>
     <main>
         <table border = 1>
@@ -76,11 +78,22 @@
     <footer>
         <table border =1>
              <tr>
-                <td colspan="4">Contacts</td>
+                <td colspan=2 align="center">Contacts</td>
             </tr>
             <tr>
-                <td>14.1</td>
-                <td>14.2</td>
+                <td width=50%>Links</td>
+                <td>
+                     <form action="https://formspree.io/rubaha0994@gmail.com" method="POST">
+                        <fieldset>
+                            <legend>Questions, suggestions, etc.?..</legend>
+                            Your email:<br>
+                            <input type="email" name="email" value=""><br>
+                            Your text:<br>
+                            <input type="text" name="text" value=""><br><br>
+                            <input type="submit" value="Send">
+                        </fieldset>
+                    </form> 
+                </td>
             </tr>
         </table>
     </footer>
