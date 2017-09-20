@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Aldrich');
 
 * {
-    color: #0cc808;
+    color: #0cc808;;
 }
+
+table, td, th { border: 4px solid #0cc808 }
+
 body {
     background-color: #0cc808;
 }
@@ -13,6 +16,7 @@ html {
 table {
     width: 100%;
     background-color: black;
+    font-size: 23px;
 }
 li {
     float: left;
@@ -27,14 +31,11 @@ header {
 
 #helloworld {
     float: left;
-    margin: 5px 10px 0px 0px;
+    margin: 5px 10px 0px 40px;
 }
 
 #headerbuttons {
     float: right;
+    margin:0px 10px 0px 0px;
 }
 
-tr {
-    border:5 groove 0cc808;
-    /*border-color: 0cc808;*/
-}
